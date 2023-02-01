@@ -11,7 +11,7 @@ body {
     background-color: white;
 }
 
-/* headings and logo*/
+/* headings and logo */
 
 #header {
     display: flex;
@@ -19,19 +19,16 @@ body {
     justify-content: space-between;
     width: 100%;
     height: 75px;
-    margin: 30px;
 }
 
 #logo {
     font-size: 280%;
     color: black;
-    margin-left: 30px;
     letter-spacing: 2px;
 }
 
 #menu {
     display: flex;
-    margin-right: 130px;
     gap: 20px;
 }
 
@@ -42,5 +39,36 @@ body {
 }
 
 .menu-item a:hover {
+    color: rgb(67, 31, 196);
+}
+
+/* footer */
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    background-color: rgb(2, 10, 10);
+    padding: 30px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#footer-social {
+    display: flex;
+    align-items: center;
+}
+
+#footer-social p {
+    padding-right: 20px;
+}
+
+#footer-social i {
+    font-size: 200%;
+}
+
+.fa-brands:hover {
     color: rgb(67, 31, 196);
 }
