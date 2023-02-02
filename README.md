@@ -106,3 +106,9 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+Credits:
+Photo converter: https://ezgif.com/ and convertio.co
+css tricks
+https://fonts.google.com/
+Fonts Awesome
