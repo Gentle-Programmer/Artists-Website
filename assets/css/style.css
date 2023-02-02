@@ -52,6 +52,27 @@ body {
     border-bottom: solid 1px rgb(67, 31, 196);
 }
 
+/* hero section */
+
+#hero {
+    background-image: url("../images/Chris-McCullen-Gallery-23.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#hero-header, #hero-text {
+    color: rgb(67, 31, 196);
+}
+
 /* footer */
 
 #footer {
