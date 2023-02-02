@@ -75,6 +75,43 @@ body {
 
 /* gallery carusel */
 
+#carusel-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+#carusel-header > h2 {
+    font-size: 46px;
+    font-weight: 300;
+    padding: 95px 40px 50px 40px;
+    text-align: center;
+}
+
+#gallery-button {  
+    align-self: center;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #3a4149;
+    background: rgb(205, 197, 231);
+    line-height: 1.15;
+    font-size: 16px;
+    width: 250px;
+}
+
+#gallery-button:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px rgb(67, 31, 196);
+    color: rgb(67, 31, 196);
+}
+
 input{display: none;}
 
 .carusel{
