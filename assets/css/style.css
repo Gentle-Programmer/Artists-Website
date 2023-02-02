@@ -78,9 +78,6 @@ body {
 #carusel-header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
 }
 
 #carusel-header > h2 {
@@ -92,6 +89,7 @@ body {
 
 #gallery-button {  
     align-self: center;
+    text-align: center;
     display: inline-block;
     outline: none;
     cursor: pointer;
