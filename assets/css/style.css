@@ -387,3 +387,34 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
       transform: rotate(0deg);
     }
   }
+
+  /* About Artist Section*/
+
+  #about-artist {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color:rgb(236, 230, 230);
+  }
+
+  #artist-image {
+    width: 300px;
+    margin: 40px 0;
+  }
+
+  #about-artist h2 {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+  #about-artist p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+}
