@@ -1,119 +1,179 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#  Artist's Website - Project 1
 
-Welcome Gentle-Programmer,
+Website presents artwork of North Carolina's local artist Chris McCullen. Visitors will find examples of his artwork including drawings, paintings and metal work as well as will be able to learn more about the artist himself and if they wish they contact him directly via contact form. More artwork including music pieces will be added at later stage of website development.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This project is for education and training purposes and can not be used as a template for business use. The goal for this project is to build a responsive website using HTML and CSS with minimal toutches of JavaScript. FlexBox and CSS Grid were used to make website responsive. Photo and artwork copywrites belong to Chris McCullen, the artist.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Mockup](../Artists-Website/assets/images/amIresponsive.Artists-Website.png)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## [View life website in GitHub Pages](https://gentle-programmer.github.io/Artists-Website/index.html)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+# User Goals
 
-Another blue button should appear to click: _Open Browser_.
+The main purpose of this website is to showcase the artist's artwork and for end users to be able to enjoy it for aestetic and therapeutical reasons. The secondary goal for the artist is to invite collaboration opportunities from local art shows, galleries as well as to connect with people interested in his art.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+# Technologies
 
-Another blue button should appear to click: _Open Browser_.
+### HTML5
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- As a structure language.
 
-To log into the Heroku toolbelt CLI:
+### CSS
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- As a style language.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### JavaScript
 
-------
+- As a script to give functionality for year in the footer.
 
-## Release History
+### Font Awesome
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- As an icon library for a social link.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Google fonts
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- As a font resource.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### GitHub
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- As a software hosting platform to keep project in a remote location.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Git
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- As a version-control system tracking.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### GitPod
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- As a development hosting platform.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#  Features
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+This website consists of 4 pages accessible from the navigation menu. The current page is indicated by color change and an underline.
+These are the website features:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Navigation bar
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Main navigation bar consists of links to Home, Artwork, Artist and Contact pages. Active page is indicated.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Mockup](./assets/images/Main%20Menu.png)
 
-------
+## Footer
 
-## FAQ about the uptime script
+Footer is available on every page and consists of copyrights section and a link to social media.
 
-**Why have you added this script?**
+![Mockup](./assets/images/Footer.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Home page
 
-**How will this affect me?**
+Home page consists of a hero image section, a small gallery carusel to shocase some of the art and provide a link to more artwork via button as well as snippets of About the Artist and Let's Connect with buttons to quickly access both pages. 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![Mockup](./assets/images/Hero%20Section.png)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Mockup](./assets/images/Artwork%20Examples.%20carusel.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Mockup](./assets/images/About%20the%20Artist%20Snipet.png)
 
-**So….?**
+![Mockup](./assets/images/Lets%20Connet%20Snipet.png)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+## Artwork
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+This page consists of a gallery view of all recent artwork.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+![Mockup](./assets/images/Artwork%20Gallery%20Page.png)
 
-**Anything more?**
+## Artist
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+This page consists of bio section with content provided by the artist himself.
 
----
+![Mockup](./assets/images/About%20the%20Artist%20Page.png)
 
-Happy coding!
+## Contact
 
-Credits:
-Website layout inspired by: https://milkovi.com/, https://www.sophiekahn.net/, https://www.maeganguerette.com/home
-Photo converter: https://ezgif.com/ and convertio.co
-css tricks
-https://fonts.google.com/
-Fonts Awesome
-Idea for gallery design used from: https://freefrontend.com/css-gallery// 
-Grid design tool used: https://cssgrid-generator.netlify.app/
-Button design usedfrom: https://copy-paste-css.com/
-Contact From: http://domanart.pl/formularz-kontaktowy/
+Contact page includes the contact form and a thank you (submition page).
+![Mockup](./assets/images/Contact%20Page.png)
+
+## Future Left to Implement
+
+At later stage a page showcasing examples of artist's music will be added.
+
+
+#  Testing
+
+## Functionality testing
+
+I used Mozilla web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
+
+## Compatibility testing
+
+Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools.
+
+I tested on hardware devices such as: 14' screen HP laptop, 17' screen Asus laptop, 27' hp monitor, Samsung s20fe, Samsung s7edge and Samsung Note 10.
+
+## Issues found
+
+The app is clear from bugs/ no bugs were found on testing.
+
+
+## Code Validation
+
+At the and of the project I used two websites to validate a code
+
+- HTML: [W3C validator](https://validator.w3.org/) to validate HTML with no ERROR results
+
+
+- CSS: [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/) to validate CSS with no ERROR results. 
+
+
+## Unfixed Bugs
+
+No unfixed bugs were found.
+
+
+#  Deployment
+
+The project was deployed on GitHub Pages. I used GitPod as a development environment where I commited all changes to git version control system.
+I used push command in GitPod to save changes into GitHub.
+
+## [View life website in GitHub Pages](https://gentle-programmer.github.io/Artists-Website/index.html)
+
+
+#  Credits
+
+Ideas and knowledge library:
+
+  - [w3schools.com](https://www.w3schools.com)
+
+  - [css-tricks.com](https://css-tricks.com/)
+
+  - [developer.mozilla.org/](https://developer.mozilla.org/)
+
+
+## Content
+
+About Artist text was written by the artist himself.
+
+Website layout inspired by: [Milkovi](https://milkovi.com/), [SophieKahn](https://www.sophiekahn.net/), [maeganguerette](https://www.maeganguerette.com/home)
+
+## Media
+
+All photos used on the website were provided by the artist himself.
+
+## Tools 
+
+Photo converter: [ezgif](https://ezgif.com/) and [Convertio](https://convertio.co/)
+Compress photos: [Compress-online](https://compress-online.com/pl/compress-webp), [Aspose](https://products.aspose.app/imaging/pl/image-compress/webp) 
+
+
+## Code
+
+Grid design tool used: [CSSGRID-Generator](https://cssgrid-generator.netlify.app/)
+Button design used from: [Copy-Paste-CSS](https://copy-paste-css.com/)
+Contact From: [Domanart.pl]http://domanart.pl/formularz-kontaktowy/
+Fonts & icons used: [Fontawesome](https://fontawesome.com/) and [Google Fonts](https://fonts.google.com/)
+Gallery design: [FreeFrontEnd](https://freefrontend.com/css-gallery//)
+Gellery Carusel on Home Page: [AurainWeb](https://www.aurainweb.pl/przykladowe-realizacje-karuzel-css-js/)

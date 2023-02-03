@@ -12,8 +12,7 @@ body {
     background-color: white;
 }
 
-/* headings and logo */
-
+/* Headings and Logo */
 #header {
     display: flex;
     align-items: center;
@@ -52,8 +51,7 @@ body {
     border-bottom: solid 1px rgb(67, 31, 196);
 }
 
-/* hero section */
-
+/* Hero Section */
 #hero {
     background-image: url("../images/Chris-McCullen-Gallery-23.webp");
 	background-position: center;
@@ -73,8 +71,8 @@ body {
     color: rgb(67, 31, 196);
 }
 
-/* gallery carusel */
 
+/* Gallery Carusel */
 #carusel-header {
     display: flex;
     flex-direction: column;
@@ -162,8 +160,7 @@ input:checked+div .carusel__arrow:before {content: '❰';}
 input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
 
 
-/* collaboration section */
-
+/* Collaboration Section */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -210,8 +207,7 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
 	background-size: cover;
 }
 
-/* footer */
-
+/* Footer */
 #footer {
     display: flex;
     align-items: center;
@@ -240,31 +236,31 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
     color: rgb(196, 31, 67);
 }
 
-/* Artwork page */
 
+/* Artwork Gallery Page */
 #artwork-gallery-header {
         font-size: 36px;
         font-weight: 300;
         text-align: center;
         padding-bottom: 50px;
-    }
+}
 
-    .gallery {
+.gallery {
         column-rule: 0px solid #eee;
         column-gap: 17px;
         width: 100%;
         max-width: 1000px; 
         margin: 0 auto;
-      }
-      .gallery.gallery-columns-3 {
+}
+.gallery.gallery-columns-3 {
         -webkit-column-count: 3;
         /* Chrome, Safari, Opera */
         -moz-column-count: 3;
         /* Firefox */
         column-count: 3;
-      }
+}
 
-      @media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1023px) {
         .gallery.gallery-columns-3 {
           -webkit-column-count: 2;
           /* Chrome, Safari, Opera */
@@ -272,9 +268,9 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
           /* Firefox */
           column-count: 2;
         }
-      }
+}
       
-      @media only screen and (max-width: 720px) {
+@media only screen and (max-width: 720px) {
         .gallery.gallery-columns-3 {
           -webkit-column-count: 1;
           /* Chrome, Safari, Opera */
@@ -282,26 +278,27 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
           /* Firefox */
           column-count: 1;
         }
-      }
+}
 
-      .gallery .gallery-item {
+.gallery .gallery-item {
         display: inline-block;
         vertical-align: top;
         margin-bottom: 17px;
         max-width: 100%;
         width: 100%;
-      }
-      .gallery .gallery-item img{
+}
+      
+.gallery .gallery-item img{
         max-width: 100%;
         height:auto;
         display:block;
         margin: 0 auto;
         width: 100%;
-      }
+}
 
-  /* About Artist Section*/
-
-  #about-artist {
+  
+/* About Artist Section*/
+#about-artist {
     width: 100%;
     display: flex;
     align-items: center;
@@ -309,29 +306,29 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
     flex-direction: column;
     padding: 20px;
     background-color:rgb(236, 230, 230);
-  }
+}
 
-  #artist-image {
+#artist-image {
     width: 300px;
     margin: 40px 0;
-  }
+}
 
-  #about-artist h2 {
+#about-artist h2 {
     font-size: 36px;
     font-weight: 300;
     text-align: center;
     padding-bottom: 10px;
 }
 
-  #about-artist p {
+#about-artist p {
     font-size: 24px;
     font-weight: 300;
     text-align: center;
     padding: 10px;
 }
 
-/* Contact page */
 
+/* Contact Page */
 .form {
     margin:3rem auto;
     font-family:sans-serif;
@@ -390,7 +387,7 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
 }
 
 
-/* Validation */
+/* Form Validation */
 .form input[type=text].error,
 .form input[type=email].error,
 .form textarea.error,
@@ -410,6 +407,8 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
     }
 }
 
+
+/* Submit Page */
 .submit-page {
 	background-color: rgb(236, 230, 230);
 	background-image: url("../images/Chris-McCullen-Gallery-9.webp");
@@ -433,6 +432,7 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
 }
 
 
+/* Error 404 Page */
 #error-404 {
 	background-color: rgb(236, 230, 230);
 	background-image: url("../images/Chris-McCullen-Gallery-20.webp");
@@ -455,8 +455,8 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
 	width: 50%;
 }
 
-/* Media Queries */
 
+/* Media Queries */
 @media only screen and (max-width: 850px) {
 	#logo {
 		font-size: 200%;
@@ -477,7 +477,6 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
         order: 4;
     }
 }
-
 
 @media only screen and (max-width: 700px) {
     #header {
