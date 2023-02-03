@@ -31,3 +31,15 @@ gallery.querySelectorAll('.gallery-item').forEach(function (item) {
         item.classList.toggle('full');        
     });
 });
+
+
+const hamburger = document.querySelector('.hamburger')
+const menuList = document.querySelector('.menu-list')
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('act')
+            menuList.classList.toggle('act')
+        })
+        document.querySelectorAll('.navlink').forEach(link => link.addEventListener('click', () => {
+            hamburger.classList.remove('act')
+        }))

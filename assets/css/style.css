@@ -550,3 +550,76 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
 	font-size: 1.2rem;
 	width: 50%;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 850px) {
+	#logo {
+		font-size: 200%;
+	}
+    .menu-item {
+       font-size: 100%; 
+    }
+    #hero-header {
+        font-size: 100%;
+    }
+    #hero-text {
+        font-size: 80%;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    #home-contact {
+        order: 4;
+    }
+}
+
+/* Hamburger Menu */
+
+.hamburger {
+	display: none;
+	cursor: pointer;
+}
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	transition: all 0.3s ease-in-out;
+	background-color: rgb(14, 2, 2);
+}
+
+@media only screen and (max-width: 700px) {
+
+    .hamburger {
+        display: block;
+        margin-right: 30px;
+}
+    .hamburger.act .bar:nth-child(2) {
+        opacity: 0;
+}
+    .hamburger.act .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+}
+    .hamburger.act .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+}
+    #menu {
+        
+        position: fixed;
+        left: -100%;
+        top: 100px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--backgr-blk);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    #menu li {
+        padding: 25px;
+    }
+    #menu.act {
+        left: 0;
+    }
+}
