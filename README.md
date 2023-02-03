@@ -108,7 +108,11 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 Happy coding!
 
 Credits:
+Website layout inspired by: https://milkovi.com/, https://www.sophiekahn.net/, https://www.maeganguerette.com/home
 Photo converter: https://ezgif.com/ and convertio.co
 css tricks
 https://fonts.google.com/
 Fonts Awesome
+Idea for gallery design used from: https://freefrontend.com/css-gallery// 
+Grid design tool used: https://cssgrid-generator.netlify.app/
+Button design usedfrom: https://copy-paste-css.com/
