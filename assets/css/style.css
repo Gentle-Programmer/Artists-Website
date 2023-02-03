@@ -433,6 +433,7 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
     font-family:sans-serif;
     font-size: 24px;
     max-width:40rem;
+    background-color: rgb(236, 230, 230);
 }
 .form .form-row {
     margin-bottom:1rem;
