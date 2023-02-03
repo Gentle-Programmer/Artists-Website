@@ -36,6 +36,25 @@
             </ul>
         </nav>
     </header>
+    <form class="form" id="contactForm" novalidate action="./submitpage.html">
+        <div class="form-row">
+            <label for="field-name">Name*</label>
+            <input type="text" name="name" required id="field-name" data-error="Provide your name" pattern="[a-zA-ZąĄććęęłŁńŃóÓśŚżŻŹŹ ]+">
+        </div>
+        <div class="form-row">
+            <label for="field-email">Email*</label>
+            <input type="email" name="email" required id="field-email" data-error="Provide correct email address" pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+        </div>
+        <div class="form-row">
+            <label for="field-message">Message*</label>
+            <textarea name="message" required data-error="Fill the box" id="field-message" pattern=".+"></textarea>
+        </div>
+        <div class="form-row">
+            <button type="submit" class="button">
+                Send
+            </button>
+        </div>
+    </form>
     <footer id="footer">
         <p>&copy; All Rights Reserved <span id="year">2023</span></p>
         <div id="footer-social">
