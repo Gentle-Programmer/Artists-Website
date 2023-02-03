@@ -491,10 +491,10 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
 .form input[type=email].error,
 .form textarea.error,
 .form .checkbox-cnt input.error ~ .state {
-    border-color:##E01546;
+    border-color:#E01546;
 }
 .field-error {
-    color:##E01546;
+    color:#E01546;
     padding:0.5rem 0;
     font-size:0.8rem;
 }
@@ -576,50 +576,17 @@ input:checked+div+input+div+input+div .carusel__arrow:before{content: '❱';}
 
 /* Hamburger Menu */
 
-.hamburger {
-	display: none;
-	cursor: pointer;
-}
-.bar {
-	display: block;
-	width: 25px;
-	height: 3px;
-	margin: 5px auto;
-	transition: all 0.3s ease-in-out;
-	background-color: rgb(14, 2, 2);
-}
 
 @media only screen and (max-width: 700px) {
-
-    .hamburger {
-        display: block;
-        margin-right: 30px;
-}
-    .hamburger.act .bar:nth-child(2) {
-        opacity: 0;
-}
-    .hamburger.act .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-}
-    .hamburger.act .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-}
-    #menu {
-        
-        position: fixed;
-        left: -100%;
-        top: 100px;
-        gap: 0;
+    #header {
         flex-direction: column;
-        background-color: var(--backgr-blk);
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
+        min-height: 140px;
+        padding: 0;
+        justify-content: space-around;
     }
-    #menu li {
-        padding: 25px;
-    }
-    #menu.act {
-        left: 0;
+    
+    #menu-item a{
+        font-size: 20px;
     }
 }
+    
